@@ -1,9 +1,14 @@
-import AuthLayout from '../components/auth/layout/authLayout';
+import AuthLayout from "../components/auth/layout/authLayout";
+import SignInForm from "../components/auth/signin/signin";
 
 const Signin = () => {
-    return <AuthLayout>sign in</AuthLayout>
-}
+  return (
+    <AuthLayout title="signin">
+      <SignInForm />
+    </AuthLayout>
+  );
+};
 
-Signin.authPage = true
+Signin.authPage = true;
 
-export default Signin
+export default Signin;

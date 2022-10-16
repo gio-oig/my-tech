@@ -3,7 +3,7 @@ import SignUpForm from "../components/auth/signup/signup";
 
 const SignUn = () => {
   return (
-    <AuthLayout>
+    <AuthLayout title="signup">
       <SignUpForm />
     </AuthLayout>
   );
